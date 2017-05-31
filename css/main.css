@@ -1,4 +1,7 @@
-/********** BASE STYLES **********/
+/********** base styles **********/
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -9,7 +12,7 @@ body {
 }
 
 
-/********** GRID **********/
+/********** grid **********/
 
 .full-width {
     width: 1200px;
@@ -27,7 +30,7 @@ body {
 }
 
 
-/********** HEADER **********/
+/********** header **********/
 
 header {
     height: 800px;
@@ -46,16 +49,23 @@ nav {
     float: right;
     padding: 75px 40px;
 }
+
 nav ul li{
     display: inline-block;
 }
+
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     color: #808080;
-    padding-left: 80px;
+    padding-left: 60px;
 }
+
+nav ul li a:hover {
+  text-shadow: 0px 1px #808080;
+}
+
 
 header h2 {
     width: 1000px;
@@ -72,7 +82,7 @@ header h2 span {
 }
 
 
-/********** ABOUT **********/
+/********** about **********/
 
 #about {
   background-color: #ebebeb;
@@ -96,10 +106,30 @@ header h2 span {
 }
 
 
-/********** WORK **********/
+/********** skills **********/
+
+#skills {
+  background-color: #85a3e0;
+  text-align: center;
+  overflow: auto;
+}
+
+#skills .full-width {
+    padding-top: 50px;
+}
+
+#skills img {
+  padding-bottom: 50px;
+}
+
+#skills img:hover {
+  transform: scale(1.1);
+}
+
+/********** work **********/
 
 #work {
-  background-color: #85a3e0;
+  background-color: #ebebeb;
   text-align: center;
 }
 
@@ -127,10 +157,10 @@ header h2 span {
 }
 
 
-/********** CONTACT **********/
+/********** contact **********/
 
 #contact {
-  background-color: #ebebeb;
+  background-color: #a7dbd8;
 }
 
 #contact .full-width {
@@ -154,19 +184,25 @@ header h2 span {
     font-size: 36px;
 }
 
+#contact h2, h3 {
+  color: #031634;
+}
+
 #email-header{
     font-size: 32px;
     font-weight: 400;
     margin: -30px 0 5px 0;
 }
+
 #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     margin: 40px 0 0px 0;
 }
+
 #contact a {
     text-decoration: none;
-    color: #c49075;
+    color: #556270;
     font-weight: bold;
     font-size: 28px;
 }
@@ -174,9 +210,11 @@ header h2 span {
 #contact ul {
     list-style: none;
 }
+
 #contact ul li {
      display: inline-block;
 }
+
 #contact ul img {
     padding-right: 48px;
 }
