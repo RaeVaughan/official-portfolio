@@ -62,8 +62,8 @@ nav ul li a {
     padding-left: 60px;
 }
 
-nav ul li a:hover {
-  text-shadow: 0px 1px #808080;
+nav ul li:hover {
+    transform: scale(1.1);
 }
 
 
@@ -122,9 +122,6 @@ header h2 span {
   padding-bottom: 50px;
 }
 
-#skills img:hover {
-  transform: scale(1.1);
-}
 
 /********** work **********/
 
