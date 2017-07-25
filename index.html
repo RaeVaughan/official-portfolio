@@ -6,6 +6,7 @@
   <!-- viewport link -->
   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <!-- normalize css link -->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- style link -->
@@ -17,25 +18,34 @@
 
 <body>
 
+<!-- parralax effect for Austin skyle pic -->
+<div class="parallax-container">
+  <div class="parallax"><img src="./img/skyline-background.png">
+</div>
+    
   <!-- header and nav bar -->
   <header>
     <div class="full-width">
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <p><a href="#about">About</a></p>
+          <p><a href="#skills">Skills</a></p>
+          <p><a href="#work">Work</a></p>
+          <p><a href="#contact">Contact</a></p>
+        </ul>
+      </nav>
+    </div>
       <div class="half-width">
         <h1>Rachel Vaughan</h1>
       </div>
-      <div class="half-width">
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
       <h2><span>Hi,</span> I'm a writer of clear content &amp; clean code.</h2>
     </div>
+    
   </header>
+</div>
+
+
 
   <!-- everything but header and nav bar -->
   <main>
@@ -52,7 +62,9 @@
       </div>
     </section>
 
-    <section id="skills">
+
+
+    <section id="skills"> 
       <div class="full-width">
         <div class="third-width">
           <p>HTML</p>
@@ -141,6 +153,13 @@
       </div>
     </footer>
   </main>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="./javascript/custom.js"></script>
 </body>
 
 </html>

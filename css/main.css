@@ -1,15 +1,19 @@
 /********** base styles **********/
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-#about, #work, #contact {
+#about,
+#work,
+#contact {
     height: 600px;
 }
+
 
 
 /********** grid **********/
@@ -20,21 +24,26 @@ body {
 }
 
 .half-width {
-  width: 600px;
-  float: left;
+    width: 600px;
+    float: left;
 }
 
 .third-width {
-  width: 400px;
-  float: left;
+    width: 400px;
+    float: left;
 }
+
 
 
 /********** header **********/
 
+.parallax-container {
+  height: 700px;
+}
+
 header {
     height: 800px;
-    background: url(../img/skyline-background.png);
+    /*background: url(../img/skyline-background.png);*/
     background-size: cover;
 }
 
@@ -45,24 +54,33 @@ header h1 {
     color: #737373;
 }
 
+#sidebar {
+  /*width: 70px; 
+  margin: 15px auto;*/
+  position: relative;
+}
+
 nav {
-    float: right;
-    padding: 75px 40px;
+    background: none;
+    /*float: right;*/
+    box-shadow: none;
+    position: fixed; 
+    margin-left: 83%;
 }
 
-nav ul li{
-    display: inline-block;
+nav ul li {
+  
 }
 
-nav ul li a {
+nav ul p a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    color: #808080;
-    padding-left: 60px;
+    color: #ebebeb;
+    background-color: #8B0746;
 }
 
-nav ul li:hover {
+nav ul p:hover {
     transform: scale(1.1);
 }
 
@@ -82,36 +100,38 @@ header h2 span {
 }
 
 
+
 /********** about **********/
 
 #about {
-  background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 
 #about .full-width {
-  padding: 80px 0;
+    padding: 80px 0;
 }
 
 #about h2 {
-  font-family: 'Lora', serif;
-  font-size: 36px;
-  color: #404040;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #404040;
 }
 
 #about p {
-  font-size: 21px;
-  color: #7f7f7f;
-  line-height: 42px;
-  padding-right: 50px;
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 42px;
+    padding-right: 50px;
 }
+
 
 
 /********** skills **********/
 
 #skills {
-  background-color: #85a3e0;
-  text-align: center;
-  overflow: auto;
+    background-color: #85a3e0;
+    text-align: center;
+    overflow: auto;
 }
 
 #skills .full-width {
@@ -119,15 +139,16 @@ header h2 span {
 }
 
 #skills img {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
+
 
 
 /********** work **********/
 
 #work {
-  background-color: #ebebeb;
-  text-align: center;
+    background-color: #ebebeb;
+    text-align: center;
 }
 
 #work .full-width {
@@ -135,7 +156,7 @@ header h2 span {
 }
 
 #work img {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 #work h3 {
@@ -154,10 +175,11 @@ header h2 span {
 }
 
 
+
 /********** contact **********/
 
 #contact {
-  background-color: #a7dbd8;
+    background-color: #a7dbd8;
 }
 
 #contact .full-width {
@@ -168,7 +190,10 @@ header h2 span {
     border: 12px solid #ffffff;
 }
 
-#contact h2, #email-header, #socialmedia-header, #contact ul {
+#contact h2,
+#email-header,
+#socialmedia-header,
+#contact ul {
     padding-left: 115px;
 }
 
@@ -181,11 +206,12 @@ header h2 span {
     font-size: 36px;
 }
 
-#contact h2, h3 {
-  color: #031634;
+#contact h2,
+h3 {
+    color: #031634;
 }
 
-#email-header{
+#email-header {
     font-size: 32px;
     font-weight: 400;
     margin: -30px 0 5px 0;
@@ -209,7 +235,7 @@ header h2 span {
 }
 
 #contact ul li {
-     display: inline-block;
+    display: inline-block;
 }
 
 #contact ul img {
