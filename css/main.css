@@ -60,10 +60,10 @@ header h1 {
 }
 
 #header-img {
-  height: 80px;
+  height: 110px;
   float: left;
-  margin-top: 8%;
-  margin-left: 4%;
+  margin-top: 6%;
+  margin-right: 4%;
   border-radius: 60px;
 }
 
@@ -208,11 +208,11 @@ header h2 span {
     background-color: #d0d5dd;
 }
 
-#third {
+#third-card {
   margin-bottom: 80px;
 }
 
-#fourth {
+#fourth-card {
   margin-top: -38px;
 }
 
@@ -237,7 +237,9 @@ header h2 span {
 }
 
 #contact-img {
-    border: 12px solid #ffffff;
+    border: 5px solid #d0d5dd;
+    height: 400px;
+    border-radius: 15px;
 }
 
 #contact h2,
@@ -289,6 +291,151 @@ h3 {
 }
 
 #contact ul img {
-    padding-right: 90px;
+    padding-right: 40px;
     height: 50px;
+}
+
+
+
+/***** media query breakpoints *****/
+@media only screen and (max-width: 980px) {
+  nav {
+    margin-left: 86.8%;
+  }
+
+  nav ul p a {
+    font-size: 17px;
+    padding-left: 6px;
+  }
+
+  #about {
+    height: 700px;
+  }
+
+  #work {
+    height: 820px;
+  }
+
+  #third-card {
+    margin-bottom: 86px;
+  }
+
+  #contact {
+    height: 500px;
+  }
+
+  #footer-img {
+    margin-right: -87px;
+  }
+
+  #contact-img {
+    height: 300px;
+  }
+
+  #contact-info {
+    width: 60%;
+  }
+
+  #contact-email {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  header h2 {
+    width: 530px;
+  }
+
+  nav {
+    margin-left: 84.5%;
+  }
+
+  #about {
+    height: 760px;
+    text-align: justify;
+  }
+
+  #about p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  #work {
+    height: 1045px;
+  }
+
+  .card .card-content .card-title {
+    font-size: 28px;
+  }
+
+  .third-width {
+    width: 47.5%;
+  }
+
+  #second-card {
+    margin-bottom: 30px;
+  }
+
+  #third-card {
+    margin-bottom: 0px;
+    margin-top: -67px;
+  }
+
+  #fifth-card {
+    margin-top: -42px;
+  }
+
+  #contact-img {
+    height: 250px;
+  }
+
+  #contact-email {
+    margin-right: -20px;
+  }
+
+  #contact a {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  nav ul p a {
+    font-size: 14px;
+  }
+
+  #about {
+    height: 830px;
+  }
+
+  #work {
+    height: 970px;
+  }
+
+  #contact {
+    height: 650px;
+  }
+
+  #footer-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    clear: both;
+    text-align: center;
+  }
+
+  #contact-info {
+    width: 100%;
+    clear: both;
+    text-align: center;
+  }
+
+  #email-header, #socialmedia-header, #contact ul {
+    padding-left: 0px;
+  }
+
+  #envelope {
+    padding-left: 0px;
+  }
 }
