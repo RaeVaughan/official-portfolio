@@ -9,7 +9,6 @@ body {
 }
 
 #about,
-#work,
 #contact {
     height: 600px;
 }
@@ -19,17 +18,22 @@ body {
 /********** grid **********/
 
 .full-width {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .half-width {
-    width: 600px;
+    width: 50%;
     float: left;
 }
 
 .third-width {
-    width: 400px;
+    width: 32.5%;
+    float: left;
+}
+
+.quarter-width {
+    width: 25%;
     float: left;
 }
 
@@ -65,11 +69,8 @@ nav {
     /*float: right;*/
     box-shadow: none;
     position: fixed; 
-    margin-left: 83%;
-}
-
-nav ul li {
-  
+    margin-left: 87%;
+    z-index: 1;
 }
 
 nav ul p a {
@@ -82,6 +83,7 @@ nav ul p a {
 
 nav ul p:hover {
     transform: scale(1.1);
+    background-color: #8B0746;
 }
 
 
@@ -142,6 +144,11 @@ header h2 span {
     padding-bottom: 50px;
 }
 
+.icon {
+    height: 50%;
+    width: 50%;
+}
+
 
 
 /********** work **********/
@@ -149,14 +156,11 @@ header h2 span {
 #work {
     background-color: #ebebeb;
     text-align: center;
+    height: 1000px;
 }
 
 #work .full-width {
     padding: 115px 0;
-}
-
-#work img {
-    padding-bottom: 30px;
 }
 
 #work h3 {
@@ -167,11 +171,44 @@ header h2 span {
 }
 
 #work p {
-    font-family: "Lora", serif;
-    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
     line-height: 30px;
     color: #404040;
     padding: 0 35px;
+}
+
+.card {
+    background-color: #d0d5dd;
+    margin-right: 5%;
+    z-index: 0;
+}
+
+.card .card-content {
+    padding: 5px;
+}
+
+.card .card-content .card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #404040;
+}
+
+.card .card-reveal{
+    background-color: #d0d5dd;
+}
+
+#third {
+  margin-bottom: 80px;
+}
+
+#fourth {
+  margin-top: -38px;
+}
+
+#sixth {
+  margin-top: -68px;
 }
 
 
