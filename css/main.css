@@ -1,4 +1,4 @@
-/********** base styles **********/
+/******************** base styles ********************/
 
 * {
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 
 
-/********** grid **********/
+/******************** grid ********************/
 
 .full-width {
     width: 90%;
@@ -39,7 +39,7 @@ body {
 
 
 
-/********** header **********/
+/******************** header ********************/
 
 .parallax-container {
   height: 700px;
@@ -112,7 +112,7 @@ header h2 span {
 
 
 
-/********** about **********/
+/******************** about ********************/
 
 #about {
     background-color: #ebebeb;
@@ -137,7 +137,7 @@ header h2 span {
 
 
 
-/********** skills **********/
+/******************** skills ********************/
 
 #skills {
     background-color: #85a3e0;
@@ -160,7 +160,7 @@ header h2 span {
 
 
 
-/********** work **********/
+/******************** work ********************/
 
 #work {
     background-color: #ebebeb;
@@ -222,7 +222,7 @@ header h2 span {
 
 
 
-/********** contact **********/
+/******************** contact ********************/
 
 #contact {
     background-color: #a7dbd8;
@@ -297,7 +297,7 @@ h3 {
 
 
 
-/***** media query breakpoints *****/
+/******************** media query breakpoints ********************/
 @media only screen and (max-width: 980px) {
   nav {
     margin-left: 86.8%;
@@ -314,6 +314,21 @@ h3 {
 
   #work {
     height: 820px;
+  }
+
+  #work p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0;
+    margin: 9px;
+  }
+
+  .card .card-title {
+    font-size: 30px;
+  }
+
+  .card .card-content .card-title {
+    font-size: 25px;
   }
 
   #third-card {
@@ -339,6 +354,11 @@ h3 {
   #contact-email {
     margin-top: 30px;
   }
+
+  #contact ul {
+    width: 70%;
+    padding-left: 140px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -363,6 +383,10 @@ h3 {
 
   #work {
     height: 1045px;
+  }
+
+  .card .card-title {
+    font-size: 25px;
   }
 
   .card .card-content .card-title {
@@ -397,6 +421,11 @@ h3 {
   #contact a {
     font-size: 20px;
   }
+
+  #contact ul {
+    width: 81%;
+    padding-left: 138px;
+  }
 }
 
 @media only screen and (max-width: 667px) {
@@ -412,8 +441,27 @@ h3 {
     height: 970px;
   }
 
+  .card .card-title {
+    font-size: 22px;
+  }
+
+  .card .card-content .card-title {
+    font-size: 25px;
+  }
+
+  #work p {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0;
+    margin: 9px;
+  }
+
   #contact {
     height: 650px;
+  }
+
+  #contact ul {
+    margin-left: 75px;
   }
 
   #footer-img {
