@@ -440,6 +440,7 @@ h3 {
   }
 }
 
+/***** iPhone 6 Plus *****/
 @media only screen and (max-width: 414px) {
   .half-width {
     width: 80%;
@@ -540,6 +541,51 @@ h3 {
 
   #fifth-card {
     margin-top: 0px;
+  }
+
+  #contact ul {
+    width: 80%;
+    margin-left: 60px;
+  }
+}
+
+/***** iPhone 6 *****/
+@media only screen and (max-width: 375px) {
+  .parallax-container {
+    height: 670px;
+  }
+
+  #about .full-width {
+    padding: 20px 0;
+  }
+
+  #about {
+    height: 1080px;
+  }
+
+  #about h2 {
+    font-size: 34px;
+  }
+
+  #work {
+    height: 1650px;
+  }
+
+  #contact ul {
+    width: 80%;
+    margin-left: 59px;
+  }   
+}
+
+/***** iPhone 5 *****/
+@media only screen and (max-width: 320px) {
+  .parallax-container {
+    height: 580px;
+  }
+
+  header h2 {
+    width: 305px;
+    font-size: 47px;
   }
 }
 
