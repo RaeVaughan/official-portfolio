@@ -395,7 +395,7 @@ h3 {
   }
 
   #contact a {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
@@ -439,3 +439,127 @@ h3 {
     padding-left: 0px;
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .half-width {
+    width: 80%;
+  }
+
+  .parallax-container {
+    height: 736px;
+  }
+
+  #header-img {
+    height: 135px;
+    margin-top: 8%;
+    margin-right: 0%;
+    margin-left: 2%;
+  }
+
+  header h1 {
+    padding: 0px;
+    margin-top: 30px;
+  }
+
+  header h2 {
+    width: 370px;
+    font-size: 62px;
+  }
+
+  nav {
+    position: absolute;
+    margin-left: 85.5%;
+    width: 17%;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul a {
+    padding: 0px;
+  }
+  
+  nav ul p a {
+    border-radius: 30px;
+    padding: 0px;
+  }
+
+  nav ul p:hover {
+    border-radius: 30px;
+  }
+
+  #about {
+    height: 1030px;
+  }
+
+  #about .full-width {
+    padding: 40px 0;
+  }
+
+  #about h2 {
+    text-align: center;
+  }
+
+  .about-col {
+    width: 100%;
+    margin-left: 25px;
+  }
+
+  #skills img {
+    padding-bottom: 30px;
+  }
+
+  .icon {
+    width: 80%;
+  }
+
+  #work {
+    height: 1775px;
+  }
+
+  #work .full-width {
+    padding: 45px 0;
+  }
+
+  .third-width {
+    width: 104.5%;
+  }
+
+  #second-card {
+    margin-bottom: 0px;
+  }
+
+  #third-card {
+    margin-top: 0px;
+  }
+
+  #fourth-card {
+    margin-top: 0px;
+  }
+
+  #fifth-card {
+    margin-top: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
