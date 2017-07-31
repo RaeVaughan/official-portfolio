@@ -587,6 +587,57 @@ h3 {
     width: 305px;
     font-size: 47px;
   }
+
+  nav {
+    margin-left: 82.5%;
+    width: 21%;
+  }
+
+  #about {
+    height: 1000px;
+  }
+
+  #about .full-width {
+    width: 100%;
+  }
+
+  #about h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-col {
+    margin-top: -20px;
+    margin-left: 25px;
+  }
+
+  #about p {
+    line-height: 30px;
+  }
+
+  #work {
+    height: 1480px;
+  }
+
+  #contact {
+    height: 560px;
+  }
+
+  #contact .full-width {
+    padding: 65px 0;
+  }
+
+  #contact-img {
+    height: 237px;
+  }
+
+  #contact a {
+    margin-left: -17px;
+  }
+
+  #contact ul {
+    width: 82%;
+  }
 }
 
 
