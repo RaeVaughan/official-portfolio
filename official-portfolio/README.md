@@ -1,6 +1,6 @@
 # official-portfolio
 
-Portfolio site hosted on (www.rachelev.com).
+Portfolio site hosted on [].
 
 Built with HTML and CSS, and a little Materialize and jQuery.
 
