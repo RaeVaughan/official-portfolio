@@ -79,7 +79,7 @@ nav {
     box-shadow: none;
     position: fixed; 
     margin-left: 87%;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav ul p a {
@@ -165,11 +165,11 @@ header h2 span {
 #work {
     background-color: #ebebeb;
     text-align: center;
-    height: 1000px;
+    height: 880px;
 }
 
 #work .full-width {
-    padding: 115px 0;
+    padding: 60px 0;
 }
 
 #work h3 {
